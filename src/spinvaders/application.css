@@ -1,0 +1,67 @@
+/* JavaFX Space Invaders
+ * 
+ * Galactika Games (Inc.)
+ * 
+ * 2019.11.05.
+ * 
+ * */
+
+#topbox {
+	-fx-background-image:url("../resources/spinlogo.jpg"); /*logo kep betoltese */
+    -fx-background-repeat:stretch;
+    -fx-background-position:center center;
+    -fx-effect:dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+	-fx-border-color:black;
+	-fx-text-fill:black;
+	-fx-font-style:oblique;
+}
+
+#root{
+    -fx-background-image:url("../resources/spacedeep.jpg"); /*hatter kep betoltese */
+    -fx-background-repeat:stretch;   
+    -fx-background-size:600 700;
+    -fx-background-position:center center;
+    -fx-effect:dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#gotxt {
+	-fx-background-color:coral;
+	-fx-border-color:black;
+	-fx-border-style:dashed;  
+	-fx-font-style:italic;
+	-fx-font-size:40.0px; 
+	-fx-alignment:center;
+}
+
+#plLife {
+	-fx-text-fill:darkslateblue;
+	-fx-font-size:25.0px; 
+}
+
+#plScore {
+	-fx-text-fill:gold;
+	-fx-font-size:25.0px;
+}
+
+#pltxt {
+	-fx-text-fill:gold;
+	-fx-font-size:13.0px;
+}
+/*
+ * #sidebox, #button:
+ *	
+ * jelenleg hasznalaton kivul, ld. scrapcodes.java 
+ * 
+
+#sidebox {
+	-fx-background-color: coral;
+	-fx-border-color: black;
+	-fx-alignment: center;
+}
+
+#button1{
+	-fx-background-color: blueviolet;
+	-fx-alignment: center;  
+}
+
+*/
